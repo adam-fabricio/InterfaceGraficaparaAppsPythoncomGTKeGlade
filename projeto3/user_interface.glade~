@@ -6,6 +6,9 @@
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixbuf">static\imagens\20200730172526.png</property>
+    <style>
+      <class name="zoom_personalizado"/>
+    </style>
   </object>
   <object class="GtkWindow" id="main_window">
     <property name="can-focus">False</property>
@@ -36,7 +39,7 @@
             <property name="margin-top">5</property>
             <property name="margin-bottom">5</property>
             <property name="border-width">5</property>
-            <property name="row-spacing">8</property>
+            <property name="row-spacing">5</property>
             <property name="column-spacing">5</property>
             <property name="row-homogeneous">True</property>
             <property name="column-homogeneous">True</property>
@@ -48,6 +51,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">0</property>
@@ -62,6 +68,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">0</property>
@@ -76,6 +85,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">1</property>
@@ -90,6 +102,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">2</property>
@@ -104,6 +119,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">0</property>
@@ -118,6 +136,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">1</property>
@@ -132,6 +153,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">2</property>
@@ -146,6 +170,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">0</property>
@@ -160,6 +187,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">1</property>
@@ -174,6 +204,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">2</property>
@@ -188,6 +221,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_ponto_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_numeros"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">1</property>
@@ -202,6 +238,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_igual_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">2</property>
@@ -216,6 +255,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_soma_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">3</property>
@@ -231,6 +273,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_operacao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">3</property>
@@ -245,6 +290,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_operacao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">3</property>
@@ -259,6 +307,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_operacao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">3</property>
@@ -273,6 +324,9 @@
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <signal name="clicked" handler="on_botao_operacao_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">2</property>
@@ -291,6 +345,9 @@
                 <property name="image">image1</property>
                 <property name="image-position">top</property>
                 <signal name="clicked" handler="on_botao_raiz_quadrada_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">1</property>
@@ -306,6 +363,9 @@
                 <property name="receives-default">True</property>
                 <property name="always-show-image">True</property>
                 <signal name="clicked" handler="on_botao_reset_clicked" swapped="no"/>
+                <style>
+                  <class name="zoom_personalizado"/>
+                </style>
               </object>
               <packing>
                 <property name="left-attach">0</property>

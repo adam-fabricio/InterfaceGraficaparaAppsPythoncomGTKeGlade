@@ -8,6 +8,18 @@
     background-size: 120% 120%;
 }
 
+.zoom_personalizado:hover {
+    font-size: 14px;
+    background: #8e9fff;
+    font-weight: bold;
+}
+
+.zoom_numeros:hover {
+    font-size: 20px;
+    background: #00ff00;
+    font-weight: bold;
+}
+
 #botao_reset{
     background: #ff0000;
     border-radius: 50%;
@@ -15,13 +27,3 @@
     font-weight: bold;
 }
 
-#botao_reset:hover, 
-#digito:hover {
-    font-size: 22px;
-    background: #8e9fff;
-    font-weight: bold;
-}
-
-#digito {
-    font-size: 16px;
-}
